@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Name Submission Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="form-container">
+
+        <h1>Welcome!</h1>
+
+        <p>Please enter your name below.</p>
+
+        <form id="nameForm">
+
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+        <p id="message"></p>
+
+    </div>
+
+    <script>
+        const form = document.getElementById("nameForm");
+
+        form.addEventListener("submit", function (event) {
+
+            event.preventDefault();
+
+            const username = document.getElementById("name").value;
+
+            document.getElementById("message").textContent =
+                "Thank you, " + username + "! Your form was submitted.";
+
+            form.reset();
+
+        });
+    </script>
+
+</body>
+
+</html>

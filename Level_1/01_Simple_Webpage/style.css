@@ -1,0 +1,41 @@
+/* General styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eaf4ff;
+}
+
+/* Main container */
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+    color: #2563a6;
+    font-size: 36px;
+}
+
+/* Paragraph */
+p {
+    color: #444;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+/* Image */
+img {
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    border-radius: 12px;
+    margin-top: 20px;
+}
