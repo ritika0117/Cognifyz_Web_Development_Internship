@@ -1,96 +1,121 @@
 # Cognifyz Technologies – Web Development Internship
 
-## Tasks Completed
+A collection of web development projects completed as part of my **Cognifyz Technologies Web Development Internship**.
 
----
+This repository contains 13 tasks across three levels, covering HTML, CSS, JavaScript, responsive web design, interactive components, and frontend development.
 
-## Level 1 Tasks
+## Internship Tasks
 
-This repository contains my Level 1 projects completed as part of the Cognifyz Technologies Web Development Internship.
+### Level 1 – HTML, CSS and JavaScript Fundamentals
 
-### Task 1 – Simple Webpage
-Created a basic webpage using HTML and CSS with a heading, paragraph, and image.
+| Task | Project | Description |
+|---|---|---|
+| 1 | Simple Webpage | Basic webpage with heading, paragraph and image |
+| 2 | HTML Form | Form with input fields and submit functionality |
+| 3 | Navigation Menu | Navigation menu with multiple links |
+| 4 | Color Changing Button | Interactive button that changes background colors |
+| 5 | Greeting Alert | Displays a greeting based on the current time |
+| 6 | Basic Calculator | Performs addition of two numbers |
 
-### Task 2 – HTML Form
-Created a basic form with an input field and submit button.
+### Level 2 – Responsive Web Design
 
-### Task 3 – Navigation Menu
-Designed a navigation menu with three links using HTML and CSS.
+| Task | Project | Description |
+|---|---|---|
+| 1 | Responsive Card | Profile card using Bulma CSS |
+| 2 | Responsive Grid | Responsive services grid using Bootstrap 5 |
+| 3 | Responsive Webpage | Technology-themed responsive webpage using CSS media queries |
+| 4 | Hamburger Menu | Mobile-friendly navigation menu using JavaScript |
 
-### Task 4 – Color Changing Button
-Created an interactive button that changes its background color when clicked using JavaScript.
+### Level 3 – Interactive Web Development
 
-### Task 5 – Greeting Alert
-Created a JavaScript greeting alert that displays a message based on the current time.
-
-### Task 6 – Basic Calculator
-Created a basic calculator that accepts two numbers, adds them, and displays the result using JavaScript.
-
----
-
-## Level 2 Tasks
-
-This level focuses on responsive web design using HTML, CSS, Bulma and Bootstrap.
-
-### Task 1 – Responsive Card
-Created a professional responsive profile card using the Bulma CSS framework.
-
-### Task 2 – Responsive Grid
-Created a responsive services grid using Bootstrap 5.
-
-### Task 3 – Responsive Webpage
-Developed a responsive technology-themed webpage using CSS media queries.
-
-### Task 4 – Hamburger Menu
-Created a responsive navigation menu with a hamburger button using HTML, CSS and JavaScript.
-
-## Level 2 Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript
-- Bulma CSS
-- Bootstrap 5
-
-## Level 2 Screenshots
-
-Screenshots of the Level 2 projects are available in the `Screenshots/` folder.
-
+| Task | Project | Description |
+|---|---|---|
+| 1 | Image Gallery | Responsive image gallery with an interactive lightbox |
+| 2 | Automatic Image Slideshow | Image slideshow with automatic transitions and manual controls |
+| 3 | Cognifyz Landing Page | Internship landing page for Cognifyz Technologies |
 
 ## Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
+- Bootstrap 5
+- Bulma CSS
+- Responsive Web Design
+- Git and GitHub
 
 ## Project Structure
 
-- `Level_1/` – Source code for all six tasks.
-- `Screenshots/` – Screenshots showing project outputs.
+```text
+Cognifyz_Web_Development_Internship/
+│
+├── Level_1/
+│   ├── 01_Simple_Webpage/
+│   ├── 02_HTML_Form/
+│   ├── 03_Navigation_Menu/
+│   ├── 04_Color_Changing_Button/
+│   ├── 05_Greeting_Alert/
+│   └── 06_Basic_Calculator/
+│
+├── Level_2/
+│   ├── 01_Responsive_Card/
+│   ├── 02_Responsive_Grid/
+│   ├── 03_Responsive_Webpage/
+│   └── 04_Hamburger_Menu/
+│
+├── Level_3/
+│   ├── 01_Image_Gallery/
+│   ├── 02_Image_Slideshow/
+│   └── 03_Cognifyz_Landing_Page/
+│
+├── Screenshots/
+├── README.md
+└── .gitignore
+```
+
+## Screenshots
+
+Project screenshots are available in the `Screenshots/` folder.
+
+They include desktop, tablet and mobile layouts, along with selected interactive outputs.
 
 ## How to Run the Projects
 
-1. Download or clone this repository.
-2. Open the desired task folder in Visual Studio Code.
-3. Open `index.html`.
-4. Run it using the Live Server extension.
+1. Clone or download this repository.
+2. Open the project folder in Visual Studio Code.
+3. Navigate to the desired task folder.
+4. Open its `index.html` file.
+5. Run the webpage using the Live Server extension.
+
+**Note:** An internet connection may be required for projects using external CSS frameworks or online images.
 
 ## Learning Outcomes
 
-- Understanding HTML webpage structure.
-- Styling webpages using CSS.
-- Creating forms and navigation menus.
-- Handling JavaScript events.
-- Using conditional statements and date/time functions.
-- Performing basic calculations with JavaScript.
-- Testing and organizing web development projects.
+Through these projects, I gained practical experience in:
+
+- Building webpages using HTML.
+- Styling and designing layouts using CSS.
+- Implementing interactive features using JavaScript.
+- Creating forms, buttons and navigation menus.
+- Developing responsive layouts for different screen sizes.
+- Working with Bootstrap and Bulma CSS frameworks.
+- Building image galleries and slideshows.
+- Organizing projects and managing code using Git and GitHub.
 
 ## Internship Details
 
 **Organization:** Cognifyz Technologies  
 **Program:** Web Development Internship  
-**Level:** Level 1
+**Completed Levels:** Level 1, Level 2 and Level 3  
+**Total Tasks:** 13
 
 ## Author
 
 **Ritika Pandey**
+
+- GitHub: [ritika0117](https://github.com/ritika0117)
+- Repository: [Cognifyz Web Development Internship](https://github.com/ritika0117/Cognifyz_Web_Development_Internship)
+
+---
+
+*Thank you to Cognifyz Technologies for providing this learning opportunity.*
