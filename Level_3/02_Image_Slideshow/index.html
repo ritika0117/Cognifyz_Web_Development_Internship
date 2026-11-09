@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust | Image Slideshow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <a href="#" class="logo">Wander<span>lust.</span></a>
+        <p>Discover Beautiful Places</p>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <span class="tag">EXPLORE THE WORLD</span>
+            <h1>Discover the Beauty of <span>Nature</span></h1>
+            <p>Let every picture take you somewhere beautiful.</p>
+        </section>
+
+        <section class="slideshow" aria-label="Travel image slideshow">
+
+            <div class="slide active">
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1400"
+                    alt="Beautiful mountain landscape">
+                <div class="slide-caption">
+                    <span>01 / 05</span>
+                    <h2>Explore the Mountains</h2>
+                    <p>Find peace in the beauty of nature.</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1400"
+                    alt="Beautiful tropical beach">
+                <div class="slide-caption">
+                    <span>02 / 05</span>
+                    <h2>Escape to the Beach</h2>
+                    <p>Experience the calm of ocean waves.</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=1400"
+                    alt="Peaceful lake surrounded by mountains">
+                <div class="slide-caption">
+                    <span>03 / 05</span>
+                    <h2>Find Your Peace</h2>
+                    <p>Discover beautiful places around the world.</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=1400"
+                    alt="Golden sunrise over a landscape">
+                <div class="slide-caption">
+                    <span>04 / 05</span>
+                    <h2>Chase the Sunrise</h2>
+                    <p>Every sunrise brings a new beginning.</p>
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1400"
+                    alt="Beautiful green forest">
+                <div class="slide-caption">
+                    <span>05 / 05</span>
+                    <h2>Into the Wild</h2>
+                    <p>Reconnect with the natural world.</p>
+                </div>
+            </div>
+
+            <button class="slide-btn prev" id="prevBtn" aria-label="Previous slide">&#10094;</button>
+            <button class="slide-btn next" id="nextBtn" aria-label="Next slide">&#10095;</button>
+
+            <div class="dots" id="dots" aria-label="Choose a slide"></div>
+
+        </section>
+
+        <div class="slide-footer">
+            <p>Enjoy the journey. Discover something new.</p>
+            <button id="pauseBtn" class="pause-btn">Pause Slideshow</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 Wanderlust. Created with HTML, CSS & JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
