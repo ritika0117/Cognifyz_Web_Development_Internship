@@ -1,0 +1,126 @@
+/* General Styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f4f7fc;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1e293b;
+}
+
+/* Page Heading */
+.section-heading {
+    margin-bottom: 45px;
+}
+
+.eyebrow {
+    color: #2563eb;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.section-heading h1 {
+    color: #172554;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.section-heading p {
+    color: #64748b;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+/* Service Card */
+.service-card {
+    background: #ffffff;
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid #e8edf5;
+    box-shadow: 0 5px 18px rgba(15, 23, 42, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(15, 23, 42, 0.12);
+}
+
+/* Card Image */
+.service-image {
+    display: block;
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+
+/* Card Content */
+.card-content {
+    padding: 24px;
+}
+
+.service-number {
+    display: inline-block;
+    color: #2563eb;
+    background: #eff6ff;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.card-content h2 {
+    color: #172554;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.card-content p {
+    color: #64748b;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+/* Footer */
+footer p {
+    color: #94a3b8;
+    font-size: 13px;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .section-heading h1 {
+        font-size: 30px;
+    }
+
+    .service-image {
+        height: 190px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .section-heading h1 {
+        font-size: 26px;
+    }
+
+    .section-heading p {
+        font-size: 14px;
+    }
+
+    .service-image {
+        height: 200px;
+    }
+
+    .card-content {
+        padding: 20px;
+    }
+}

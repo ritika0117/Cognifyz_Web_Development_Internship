@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Responsive Navigation | Cognifyz</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="header">
+        <nav class="navbar">
+
+            <!-- Logo -->
+            <a href="#home" class="logo">
+                TechNova<span>.</span>
+            </a>
+
+            <!-- Hamburger Button -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false"
+                aria-controls="navLinks">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <span class="tagline">WELCOME TO TECHNOVA</span>
+
+                <h1>
+                    Explore the World of
+                    <span>Technology</span>
+                </h1>
+
+                <p>
+                    Discover innovative ideas, creative solutions
+                    and modern digital experiences. We make
+                    technology simple, useful and accessible.
+                </p>
+
+                <a href="#about" class="primary-button">
+                    Discover More
+                </a>
+            </div>
+
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1000&auto=format&fit=crop"
+                    alt="Modern web development workspace">
+            </div>
+        </section>
+
+        <section class="info-section" id="about">
+            <h2>About Us</h2>
+            <p>
+                We explore technology and creative ideas to
+                build better digital experiences.
+            </p>
+        </section>
+
+        <section class="info-section alternate" id="services">
+            <h2>Our Services</h2>
+            <p>
+                Web Development, UI/UX Design and Digital Solutions.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <h2>TechNova<span>.</span></h2>
+        <p>Creating better digital experiences.</p>
+        <p class="copyright">
+            &copy; 2026 TechNova. All rights reserved.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
